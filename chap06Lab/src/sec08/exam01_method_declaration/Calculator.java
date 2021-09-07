@@ -5,6 +5,7 @@ public class Calculator {
 	// 1. 필드
 	// 2. 생성자
 	// 3. 메소드
+	// 4.
 	void powerOn() {
 		System.out.println("전원을 켭니다.");
 	}
