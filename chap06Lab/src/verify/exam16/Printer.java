@@ -6,6 +6,10 @@ public class Printer {
 		System.out.println(value);
 	}
 	
+	static void println(float value) {
+		System.out.println(value);
+	}
+	
 	// 메소드 오버로딩(overloading)
 	static void println(boolean value) {
 		System.out.println(value);
@@ -18,5 +22,9 @@ public class Printer {
 	static void println(String value) {
 		System.out.println(value);
 	}
-
+	
+	static void println(String value, int value2) {
+		System.out.println(value);
+	}
+	
 }
